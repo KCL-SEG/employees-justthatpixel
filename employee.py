@@ -2,6 +2,11 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 class Employee:
+    salary = 0 
+    name = ""
+    contracted = False
+    commisions = False
+
     def __init__(self, name):
         self.name = name
 
@@ -9,6 +14,7 @@ class Employee:
         pass
 
     def __str__(self):
+        #if contract, monthly
         return self.name
 
 
